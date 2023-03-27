@@ -5,7 +5,7 @@ events:RegisterEvent("CHAT_MSG_SPELL_SELF_DAMAGE")
 
 local messages = {
     "You gain Windfury Weapon.",
-    "(.*)Windfury Totem."
+    "You gain 1 extra attack through Windfury Totem.",
 }
 
 events:SetScript("OnEvent", function()

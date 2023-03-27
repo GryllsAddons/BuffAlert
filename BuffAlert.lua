@@ -4,7 +4,7 @@ selfbuffs:RegisterEvent("CHAT_MSG_SPELL_SELF_BUFF")
 
 local messages = {
     "You gain Windfury Weapon.",
-    "(.*)Windfury Totem(.*)"
+    "(.*)extra attack through Windfury Totem(.*)"
 }
 
 selfbuffs:SetScript("OnEvent", function()

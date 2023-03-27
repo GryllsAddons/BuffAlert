@@ -1,0 +1,7 @@
+## Interface: 11200
+## Title: BuffAlert
+## Author: Grylls
+## Notes: Plays a sound when buffs are detected
+## Version: 1
+
+BuffAlert.lua

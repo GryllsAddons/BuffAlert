@@ -8,8 +8,8 @@ local messages = {
 }
 
 selfbuffs:SetScript("OnEvent", function()
-    for _, str in pairs(messages) do
-        if (string.find(arg1, str)) then
+    for _, msg in pairs(messages) do
+        if (string.find(arg1, msg)) then
             PlaySoundFile[[Interface\AddOns\BuffAlert\sound.ogg]]
         end
     end
